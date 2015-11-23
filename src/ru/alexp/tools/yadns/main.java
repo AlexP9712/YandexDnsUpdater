@@ -28,7 +28,6 @@ public class main {
         Vars.parseArray(args);
         Config.load();
 
-//        domain.updateRecord(id, "grand", "37.113.167.170");
         if (Vars.containsKey("console")) {
             try {
                 String token = Vars.get("token").toString();
